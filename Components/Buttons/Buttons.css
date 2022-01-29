@@ -24,6 +24,7 @@
     border-radius: 0.25rem;
     line-height: 1.5;
     width: fit-content;
+    color: white;
 }
 
 .btn-primary{
@@ -49,6 +50,7 @@
 .btn-warning{
     background-color: var(--bg-warning);
     border: var(--bg-warning);
+    color: #dc3545;
 }
 
 .btn-info{
