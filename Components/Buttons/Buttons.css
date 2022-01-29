@@ -62,6 +62,7 @@
     border: var(--bg-info);
 }
 
+/* Outline Buttons */
 
 .btn-outline{
     background-color: white;
