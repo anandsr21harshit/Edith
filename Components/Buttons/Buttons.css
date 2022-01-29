@@ -57,3 +57,38 @@
     background-color: var(--bg-info);
     border: var(--bg-info);
 }
+
+
+.btn-outline{
+    background-color: white;
+}
+
+.btn-primary-outline{
+    border: 1px solid var(--bg-primary);
+    color: var(--bg-primary);
+}
+
+.btn-secondary-outline{
+    border: 1px solid var(--bg-secondary);
+    color: var(--bg-secondary);
+}
+
+.btn-success-outline{
+    border: 1px solid var(--bg-success);
+    color: var(--bg-success);
+}
+
+.btn-danger-outline{
+    border: 1px solid var(--bg-danger);
+    color: var(--bg-danger);
+}
+
+.btn-warning-outline{
+    border: 1px solid var(--bg-warning);
+    color: var(--bg-warning);
+}
+
+.btn-info-outline{
+    border: 1px solid var(--bg-info);
+    color: var(--bg-info);
+}
