@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.container{
+    width: 40rem;   
+    margin: 2rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.avatar-circle{
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+.avatar-xl{
+    width: 7.5rem;  /*120px*/
+    height: 7.5rem;
+}
+
+.avatar-l{
+    width: 6rem;  /*96px*/
+    height: 6rem;
+}
+
+.avatar-m{
+    width: 5rem;
+    height: 5rem;
+}
+
+.avatar-s{
+    width: 3rem;
+    height: 3rem;
+}
+
+.avatar{
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+}
+
+.picture{
+    position: relative;
+}
+
+.busy{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: red;
+    border-radius: 50%;
+    position:absolute;
+    right: 25px;
+    top:75px;
+}
+
+.available{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: green;
+    border-radius: 50%;
+    position:absolute;
+    right: 25px;
+    top:75px;
+}
+
+.brb{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: rgb(231, 231, 17);
+    border-radius: 50%;
+    position:absolute;
+    right: 25px;
+    top:75px;
+}
+
+.offline{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color:gray;
+    border-radius: 50%;
+    position:absolute;
+    right: 25px;
+    top:75px;
+}
