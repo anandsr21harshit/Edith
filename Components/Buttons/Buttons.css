@@ -68,32 +68,32 @@
 }
 
 .btn-primary-outline{
-    border: 1px solid var(--bg-primary);
+    border: 0.063rem solid var(--bg-primary);
     color: var(--bg-primary);
 }
 
 .btn-secondary-outline{
-    border: 1px solid var(--bg-secondary);
+    border: 0.063rem solid var(--bg-secondary);
     color: var(--bg-secondary);
 }
 
 .btn-success-outline{
-    border: 1px solid var(--bg-success);
+    border: 0.063rem solid var(--bg-success);
     color: var(--bg-success);
 }
 
 .btn-danger-outline{
-    border: 1px solid var(--bg-danger);
+    border: 0.063rem solid var(--bg-danger);
     color: var(--bg-danger);
 }
 
 .btn-warning-outline{
-    border: 1px solid var(--bg-warning);
+    border: 0.063rem solid var(--bg-warning);
     color: var(--bg-warning);
 }
 
 .btn-info-outline{
-    border: 1px solid var(--bg-info);
+    border: 0.063rem solid var(--bg-info);
     color: var(--bg-info);
 }
 
