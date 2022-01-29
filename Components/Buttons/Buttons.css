@@ -27,6 +27,10 @@
     color: white;
 }
 
+.btn:hover{
+    cursor: pointer;
+}
+
 .btn-primary{
     background-color: var(--bg-primary);
     border: var(--bg-primary);
@@ -91,4 +95,8 @@
 .btn-info-outline{
     border: 1px solid var(--bg-info);
     color: var(--bg-info);
+}
+
+.disabled:hover{
+    cursor: auto;
 }
