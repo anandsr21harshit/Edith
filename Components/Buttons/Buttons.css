@@ -14,8 +14,7 @@
 }
 
 .container{
-    max-width: 600px;
-    border: 2px solid black;
+    width: fit-content;
     margin: 5rem auto;
 }
 
@@ -34,5 +33,25 @@
 
 .btn-secondary{
     background-color: var(--bg-secondary);
-    border: var(--bg-secondary);
+    border: var(--bg-secondary);    
+}
+
+.btn-success{
+    background-color: var(--bg-success);
+    border: var(--bg-success);
+}
+
+.btn-danger{
+    background-color: var(--bg-danger);
+    border: var(--bg-danger);
+}
+
+.btn-warning{
+    background-color: var(--bg-warning);
+    border: var(--bg-warning);
+}
+
+.btn-info{
+    background-color: var(--bg-info);
+    border: var(--bg-info);
 }
