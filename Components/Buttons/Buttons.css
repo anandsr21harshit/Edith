@@ -31,3 +31,8 @@
     background-color: var(--bg-primary);
     border: var(--bg-primary);
 }
+
+.btn-secondary{
+    background-color: var(--bg-secondary);
+    border: var(--bg-secondary);
+}
