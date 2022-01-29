@@ -52,7 +52,6 @@ body{
 }
 
 .busy{
-    /* display: inline-block; */
     width: 0.8rem;
     height: 0.8rem;
     background-color: red;
@@ -63,7 +62,6 @@ body{
 }
 
 .available{
-    /* display: inline-block; */
     width: 0.8rem;
     height: 0.8rem;
     background-color: green;
@@ -74,7 +72,6 @@ body{
 }
 
 .brb{
-    /* display: inline-block; */
     width: 0.8rem;
     height: 0.8rem;
     background-color: rgb(231, 231, 17);
