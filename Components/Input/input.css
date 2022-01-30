@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    padding: 0.3rem;
+    width: 20rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    margin: 0.5rem 0rem;
+}
+
+.input-error{
+    border: 1px solid red;
+}
+
+.error-txt{
+    color: red;
+}
+
+.radio-container{
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 2rem;
+}
+
+.radio-container label{
+    margin-right:0.5rem ;
+}
