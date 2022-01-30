@@ -106,3 +106,14 @@
     text-decoration: none;
     color: white;
 }
+
+.btn-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.125rem;
+}
+.icon{
+    display: block;
+    margin-right: 0.5rem;
+}
