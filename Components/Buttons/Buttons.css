@@ -101,3 +101,8 @@
 .disabled:hover{
     cursor: auto;
 }
+
+.btn-link{
+    text-decoration: none;
+    color: white;
+}
