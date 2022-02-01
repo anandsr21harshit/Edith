@@ -14,6 +14,7 @@
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .card{
@@ -83,4 +84,26 @@
 
 .card-without-button .card-footer button{
     visibility: hidden;
+}  
+
+.card-with-badge{
+    position: relative;
+}
+
+.badge{
+    background-color: white;
+    /* border: 2px solid black; */
+    border-radius: 0.2rem;
+    width: fit-content;
+    position:absolute;
+    top: 2rem;
+    right: 0;
+}
+
+.card-without-image{
+    width: 20rem;
+}
+
+.card-horizontal{
+    width: 40rem;
 }
