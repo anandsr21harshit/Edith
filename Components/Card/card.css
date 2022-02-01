@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@import url("../Buttons/Buttons.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.card-container{
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    box-shadow:  0 0 0.625rem gainsboro;
+    width: min-content;
+}
+.card-img > img{
+    width:25rem;
+    height: 15rem;
+}
+
+.card-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.card-sub-title{
+    margin-left: 0.5rem;
+    /* color: saddlebrown; */
+    font-weight: 600;
+}
+
+.card-content{
+    color: black;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+}
+
+.card-footer{
+    margin-top: 1rem;
+    /* border: 1px solid saddlebrown; */
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+}
+
+.icons svg{
+    margin: 0 1rem;
+}
+
+/* card 2 */
+
+
+.card-heading-top .heading{
+    /* border: 2px solid black; */
+    order: -1;
+}
