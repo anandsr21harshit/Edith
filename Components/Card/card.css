@@ -20,7 +20,6 @@
 .card{
     display: flex;
     flex-direction: column;
-    /* border: 2px solid black; */
     box-shadow:  0 0 0.625rem gainsboro;
     width: min-content;
 }
@@ -37,7 +36,6 @@
 
 .card-sub-title{
     margin-left: 0.5rem;
-    /* color: saddlebrown; */
     font-weight: 600;
 }
 
@@ -50,7 +48,6 @@
 
 .card-footer{
     margin-top: 1rem;
-    /* border: 1px solid saddlebrown; */
     padding: 1rem 1rem;
     display: flex;
     align-items: center;
@@ -70,7 +67,6 @@
 
 
 .card-heading-top .heading{
-    /* border: 2px solid black; */
     order: -1;
 }
 
@@ -92,7 +88,6 @@
 
 .badge{
     background-color: white;
-    /* border: 2px solid black; */
     border-radius: 0.2rem;
     width: fit-content;
     position:absolute;
