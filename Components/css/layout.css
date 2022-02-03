@@ -1,0 +1,124 @@
+.page-header{
+    padding: 1em 0;
+    padding-bottom: 0.7em;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brandname-link {
+    margin-left: 4.1em;
+    text-decoration: none;
+}
+
+.brandname{
+    display: inline-flex;
+}
+
+.brandname-logo{
+    width: 2rem;
+    height: auto;
+    margin-right: 0.5rem;
+}
+
+.brandname-title{
+    color: black;
+}
+
+/* Navigation  */
+
+.site-nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin-left: 5em;
+    margin-top: 7em;
+    overflow-y: auto;
+}
+
+.nav-main-heading {
+    font-size: 1rem;
+    padding: 0.2em 0.5em;
+    border-radius: 0.3em;
+    display: block;
+    width: 100%;
+    /* color: #626364; */
+    font-weight: 600;
+    margin-top: 0.6em;
+}
+
+.nav-sub-heading {
+    font-size: 1.07rem;
+    padding: 0.2em 0.5em;
+    border-radius: 0.3em;
+    display: block;
+    width: 93%;
+    color: #585a5c;
+    margin-top: 0.3em;
+    margin-left: 0.5em;
+}
+
+.nav-sub-heading:hover {
+    background-color: #d6f3ee;
+}
+
+.nav-sub-heading > a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #585a5c;
+}
+
+
+.nav-comp-section {
+    margin-top: 0.5em;
+    padding-left: 0.5em;
+}
+
+.component-links {
+    list-style: none;
+    margin-bottom: 0.5em;
+    font-size: 1rem;
+    border-radius: 0.4em;
+}
+
+.component-links:hover {
+    background-color: #d6f3ee;
+}
+
+.component-links > a {
+    display: block;
+    text-decoration: none;
+    padding: 0.2em 0.5em;
+    color: #585a5c;
+    width: 100%;
+}
+
+.comp-disp {
+    max-width: 50%;
+    margin-left: 25em;
+    margin-top: 7em;
+}
+
+.comp-disp-header {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+}
+
+.sub-comp-header{
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    color:#585a5c ;
+}
+
+.comp-desc {
+    font-size: 1.1rem;
+    margin-left: 0.5em;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5em;
+}
