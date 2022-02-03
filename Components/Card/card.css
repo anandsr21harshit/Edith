@@ -1,13 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
 @import url("../Buttons/Buttons.css");
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
-}
+@import url("../css/global.css");
 
 .card-container{
     margin: 2rem;
