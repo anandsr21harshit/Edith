@@ -1,0 +1,26 @@
+@import url("../Components/css/global.css");
+@import url("./Alert/Alert.css");
+@import url("./Avatar/avatar.css");
+@import url("./Buttons/Buttons.css");
+@import url("./Card/card.css");
+@import url("./Input/input.css");
+@import url("../Components/css/layout.css");
+
+.comp-disp {
+    max-width: 50%;
+    margin-left: 25em;
+    margin-top: 7em;
+}
+
+.comp-disp-header {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+}
+
+.comp-desc {
+    font-size: 1.1rem;
+    margin-left: 0.5em;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5em;
+}
+
