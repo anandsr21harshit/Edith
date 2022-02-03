@@ -5,47 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="./avatar.css">
     <title>Avatar</title>
 </head>
 <body>
-    <div class="avatar-container">
-        <img class="avatar-circle avatar-xl" src="./Images/tony-stark.jpeg" alt="avatar">
-        <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
-        <img class="avatar-circle avatar-m" src="./Images/tony-stark.jpeg" alt="avatar">
-        <img class="avatar-circle avatar-s" src="./Images/tony-stark.jpeg" alt="avatar">
-    </div>
+    <header class="page-header">
+        <a class="brandname-link" href="../index.html">
+            <span class="brandname">
+                <img
+                    class="brandname-logo"
+                    src="../Images/EDITH.jpg"
+                    alt="logo"
+                />
+                <span class="brandname-title">E.D.I.T.H</span>
+            </span>
+        </a>
+    </header>
 
-    <div class="avatar-container">
-        <img class="avatar avatar-xl" src="./Images/tony-stark.jpeg" alt="avatar">
-        <img class="avatar avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
-        <img class="avatar avatar-m" src="./Images/tony-stark.jpeg" alt="avatar">
-        <img class="avatar avatar-s" src="./Images/tony-stark.jpeg" alt="avatar">
-    </div>
+    <nav class="site-nav">
+        <div class="nav-main-heading">Getting Started</div>
 
-    <div class="avatar-container">
-
-        <div class="picture">
-            <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
-            <div class="busy"></div>
+        <div class="nav-sub-heading">
+            <a href="/pages/usage.html">Usage</a>
         </div>
 
-        <div class="picture">
-            <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
-            <div class="available"></div>
-        </div>
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+            <li class="component-links">
+                <a href="../Components/Avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="component-links">
+                <a href="#">Alert</a>
+            </li>
+            <li class="component-links">
+                <a href="#">Badge</a>
+            </li>
+            <li class="component-links">
+                <a href="#">Button</a>
+            </li>
+            <li class="component-links">
+                <a href="#">Card</a>
+            </li>   
+            <li class="component-links">
+                <a href="#">Image</a>
+            </li>
+            <li class="component-links">
+                <a href="#">Input</a>
+            </li>
+        </ul>
+    </nav>
 
-        <div class="picture">
-            <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
-            <div class="brb"></div>
-        </div>
 
-        <div class="picture">
+    <main class="comp-disp">
+        <h1 class="comp-disp-header">Avatar</h1>
+        <h2 class="sub-comp-header">Circular Avatars</h2>
+        <div class="avatar-container">
+            <img class="avatar-circle avatar-xl" src="./Images/tony-stark.jpeg" alt="avatar">
             <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
-            <div class="offline"></div>
+            <img class="avatar-circle avatar-m" src="./Images/tony-stark.jpeg" alt="avatar">
+            <img class="avatar-circle avatar-s" src="./Images/tony-stark.jpeg" alt="avatar">
         </div>
-        
-    </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=774.25&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-xl%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-l%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-m%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-s%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A"
+        style="width: 48.5rem; height: 14rem; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
 
+        <h2 class="sub-comp-header">Square-Shaped Avatars</h2>
+        <div class="avatar-container">
+            <img class="avatar avatar-xl" src="./Images/tony-stark.jpeg" alt="avatar">
+            <img class="avatar avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+            <img class="avatar avatar-m" src="./Images/tony-stark.jpeg" alt="avatar">
+            <img class="avatar avatar-s" src="./Images/tony-stark.jpeg" alt="avatar">
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=774.25&ds=true&dsyoff=0px&dsblur=87px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-l%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-m%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-s%2522%2520src%253D%2522%2523%2522%2520alt%253D%2522avatar%2522%253E%250A%253C%252Fdiv%253E%250A"
+        style="width: 48.5rem; height: 14rem; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="sub-comp-header">Avatars with status</h2>
+        <div class="avatar-container">
+            <div class="picture">
+                <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+                <div class="busy"></div>
+            </div>
+    
+            <div class="picture">
+                <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+                <div class="available"></div>
+            </div>
+    
+            <div class="picture">
+                <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+                <div class="brb"></div>
+            </div>
+    
+            <div class="picture">
+                <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+                <div class="offline"></div>
+            </div>    
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=774.25&ds=true&dsyoff=0px&dsblur=87px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522picture%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-l%2522%2520src%253D%2522.%252FImages%252Ftony-stark.jpeg%2522%2520%2509%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522busy%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522picture%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-l%2522%2520src%253D%2522.%252FImages%252Ftony-stark.jpeg%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522available%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522picture%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-l%2522%2520src%253D%2522.%252FImages%252Ftony-stark.jpeg%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522brb%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522picture%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-circle%2520avatar-l%2522%2520src%253D%2522.%252FImages%252Ftony-stark.jpeg%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E%2520%2520%2520%2520"
+        style="width: 774px; height: 560px; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>    
+        <div class="comp-disp-container disp-flex">
+    </main>
 </body>
 </html>
