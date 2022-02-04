@@ -1,3 +1,4 @@
+@import url("../css/global.css");
 :root{
     --bg-primary: #93C5FD;
     --bg-secondary: #D1D5DB;
@@ -14,24 +15,18 @@
     --text-info: #7C3AED;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .alert-wrapper{
     margin: 2rem auto;
     width: 50rem;
 }
 
 .alert{
-    width: 40rem;
-    padding: 1.5rem;
-    margin: 1rem auto;
+    width: 20rem;
+    padding: 1rem;
+    margin: 1rem 0;
     border-radius: 0.5rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .alert-primary{
