@@ -7,11 +7,12 @@
     --bg-danger:#dc3545;
     --bg-warning:#ffc107;
     --bg-info:#0dcaf0;
+    --bg-primary-disbaled: #80aff7;
 }
 
 .btn-container{
-    width: fit-content;
-    margin: 5rem auto;
+    width: 60rem;
+    margin: 3rem auto;
 }
 
 .btn{
@@ -92,10 +93,6 @@
 .btn-info-outline{
     border: 0.063rem solid var(--bg-info);
     color: var(--bg-info);
-}
-
-.disabled:hover{
-    cursor: auto;
 }
 
 .btn-link{
