@@ -4,42 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="Buttons.css">
     <title>Buttons</title>
 </head>
-<body>
-    <div class="btn-container">
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <button type="button" class="btn btn-warning">Warning</button>
-        <button type="button" class="btn btn-info">Info</button>
-    </div>
+<body> 
+    <header class="page-header">
+        <a class="brandname-link" href="/index.html">
+            <span class="brandname">
+                <img
+                    class="brandname-logo"
+                    src="../Images/EDITH.jpg"
+                    alt="logo"
+                />
+                <span class="brandname-title">E.D.I.T.H</span>
+            </span>
+        </a>
+    </header>
 
-    <div class="btn-container">
-        <button type="button" class="btn btn-outline btn-primary-outline">Primary</button>
-        <button type="button" class="btn btn-outline btn-secondary-outline">Secondary</button>
-        <button type="button" class="btn btn-outline btn-success-outline">Success</button>
-        <button type="button" class="btn btn-outline btn-danger-outline">Danger</button>
-        <button type="button" class="btn btn-outline btn-warning-outline">Warning</button>
-        <button type="button" class="btn btn-outline btn-info-outline">Info</button>
-    </div>
+    <nav class="site-nav">
+        <div class="nav-main-heading">Getting Started</div>
 
-    <div class="btn-container">
-        <button type="button" class="btn btn-primary disabled">Primary</button>
-        <button type="button" class="btn btn-secondary disabled">Secondary</button>
-    </div>
+        <div class="nav-sub-heading">
+            <a href="../usage.html">Usage</a>
+        </div>
 
-    <div class="btn-container">
-        <a href="#" class="btn btn-primary btn-link">Link</a></button>
-    </div>
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+            <li class="component-links">
+                <a href="#">Avatar</a>
+            </li>
+            <li class="component-links">
+                <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li class="component-links">
+                <a href="../Buttons/Buttons.html">Buttons</a>
+            </li>
+            <li class="component-links">
+                <a href="../Card/card.html">Card</a>
+            </li>   
+            <li class="component-links">
+                <a href="#">Image</a>
+            </li>
+            <li class="component-links">
+                <a href="../Input/input.html">Input</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="comp-disp">
+        <h1 class="comp-disp-header">Buttons</h1>
+        <h2 class="sub-comp-header">Solid Buttons</h2>
+        <div class="btn-container">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-info">Info</button>
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=774.25&ds=true&dsyoff=0px&dsblur=87px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+        style="width: 48.5rem; height: 15rem; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
 
-    <div class="btn-container btn btn-primary btn-icon">
-        <img class="icon" src="./images/save-fill.svg" alt="">
-        <p>Save</p>
-    </div>
+        <h2 class="sub-comp-header">Outline Buttons</h2>
+        <div class="btn-container">
+            <button type="button" class="btn btn-outline btn-primary-outline">Primary</button>
+            <button type="button" class="btn btn-outline btn-secondary-outline">Secondary</button>
+            <button type="button" class="btn btn-outline btn-success-outline">Success</button>
+            <button type="button" class="btn btn-outline btn-danger-outline">Danger</button>
+            <button type="button" class="btn btn-outline btn-warning-outline">Warning</button>
+            <button type="button" class="btn btn-outline btn-info-outline">Info</button>
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=774.25&ds=true&dsyoff=0px&dsblur=87px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520btn-primary-outline%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520btn-secondary-outline%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520btn-success-outline%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520btn-danger-outline%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520btn-warning-outline%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-outline%2520btn-info-outline%2522%253EInfo%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+        style="width: 48.5rem; height: 20rem; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
 
+        <h2 class="sub-comp-header">Link Button</h2>
+        <div class="btn-container">
+            <a href="#" class="btn btn-primary btn-link">Link</a></button>
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=807.75&ds=true&dsyoff=0px&dsblur=87px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-primary%2520btn-link%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+        style="width: 50.5rem; height: 10rem; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
 
+        <h2 class="sub-comp-header">Image Button</h2>
+        <div class="btn-container">
+            <div class="btn btn-outline btn-primary-outline btn-icon">
+                <img class="icon" src="./images/save-fill.svg" alt="">
+                <p>Save</p>
+            </div>  
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=674.25&ds=true&dsyoff=0px&dsblur=87px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn%2520btn-outline%2520btn-primary-outline%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522icon%2522%2520src%253D%2522.%252Fimages%252Fsave-fill.svg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESave%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%250A%253C%252Fdiv%253E"
+        style="width: 48.5rem; height: 15rem; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </main>
 </body>
 </html>
