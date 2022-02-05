@@ -24,3 +24,11 @@
     line-height: 1.5em;
 }
 
+@media screen and (max-width:900px) {
+    .comp-disp{
+        max-width: 40%;
+        margin-left: 20em;
+        margin-top: 7em;
+    }
+}
+
