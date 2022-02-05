@@ -52,8 +52,10 @@
     align-items: center;
 }
 
-.icons svg{
+.icons img{
     margin: 0 1rem;
+    width: 20px;
+    height: auto;
 }
 
 /* card 2 */
