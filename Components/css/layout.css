@@ -38,7 +38,7 @@
     bottom: 0;
     margin-left: 5em;
     margin-top: 7em;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 }
 
 .nav-main-heading {
@@ -121,4 +121,34 @@
     margin-left: 0.5em;
     font-family: "Montserrat", sans-serif;
     line-height: 1.5em;
+}
+
+/* Media Queries  */
+
+@media (max-width: 1200px) {
+    .site-nav {
+        margin-left: 3em;
+    }
+
+    .comp-disp {
+        max-width: 80%;
+        margin-left: 18em;
+        margin-right: 1em;
+        margin-top: 7em;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .site-nav {
+        display: none;
+    }
+
+    .comp-disp {
+        max-width: 80%;
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 7em;
+    }
+
 }
