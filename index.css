@@ -22,3 +22,12 @@
 .highlight{
     color: var(--bg-primary);
 }
+
+@media screen and (max-width:420px) {
+    .landing-page-wrapper{
+        width: 15rem;
+    }
+    .landing-page-wrapper >h1{
+        font-size: 3rem;
+    }
+}
