@@ -4,30 +4,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="input.css">
     <title>Input</title>
 </head>
 <body>
-    <div class="input-container">
-        <label for="userName">UserName*</label>
-        <input class="input input-primary" type="text" placeholder="Type username">
-    </div>
+    <header class="page-header">
+        <a class="brandname-link" href="/index.html">
+            <span class="brandname">
+                <img
+                    class="brandname-logo"
+                    src="../Images/EDITH.jpg"
+                    alt="logo"
+                />
+                <span class="brandname-title">E.D.I.T.H</span>
+            </span>
+        </a>
+    </header>
 
-    <div class="input-container">
-        <label for="userName">Password*</label>
-        <input class="input input-error" type="text">
-        <div class="error-txt">Incorrect password</div>
-    </div>
+    <nav class="site-nav">
+        <div class="nav-main-heading">Getting Started</div>
 
-    <div class="radio-container">
-        <label for="radio-1">
-            <input id="radio-1" name="radio" type="radio" checked>
-            Checked
-        </label>
-        <label for="radio-2">
-            <input id="radio-2" name="radio" type="radio">
-            UnChecked
-        </label>
-    </div>
+        <div class="nav-sub-heading">
+            <a href="../usage.html">Usage</a>
+        </div>
+
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+            <li class="component-links">
+                <a href="#">Avatar</a>
+            </li>
+            <li class="component-links">
+                <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li class="component-links">
+                <a href="../Buttons/Buttons.html">Buttons</a>
+            </li>
+            <li class="component-links">
+                <a href="../Card/card.html">Card</a>
+            </li>   
+            <li class="component-links">
+                <a href="#">Image</a>
+            </li>
+            <li class="component-links">
+                <a href="../Input/input.html">Input</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="comp-disp">
+        <h1 class="comp-disp-header">Input Element</h1>
+        <h2 class="sub-comp-header">Standard Input</h2>
+        <div class="input-container">
+            <label for="userName">UserName*</label>
+            <input class="input input-primary" type="text" placeholder="Type username">
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=681.5&ds=true&dsyoff=0px&dsblur=87px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522userName%2522%253EUserName*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-primary%2522%2520type%253D%2522text%2522%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Type%2520username%2522%253E%250A%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520"
+        style="width: 48.5rem; height: 12rem; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        
+        <h2 class="sub-comp-header">Validation Input</h2>
+        <div class="input-container">
+            <label for="userName">Password*</label>
+            <input class="input input-error" type="text">
+            <div class="error-txt">Incorrect password</div>
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=681.5&ds=true&dsyoff=0px&dsblur=87px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522userName%2522%253EPassword*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-error%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-txt%2522%253EIncorrect%2520password%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+        style="width: 48.5rem; height: 15rem; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        
+        <h2 class="sub-comp-header">Radio Button</h2>
+        <div class="radio-container">
+            <label for="radio-1">
+                <input id="radio-1" name="radio" type="radio" checked>
+                Checked
+            </label>
+            <label for="radio-2">
+                <input id="radio-2" name="radio" type="radio">
+                UnChecked
+            </label>
+        </div>
+        <iframe
+        src="https://carbon.now.sh/embed?bg=rgba%288%2C8%2C9%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=681.5&ds=true&dsyoff=0px&dsblur=87px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522radio-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522radio-1%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520checked%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Checked%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522radio-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520id%253D%2522radio-2%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520UnChecked%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+        style="width: 48.5rem; height: 22rem; border:0; transform: scale(1); overflow:hidden;"
+        sandbox="allow-scripts allow-same-origin">
+        </iframe>
+    </main>
 </body>
 </html>
