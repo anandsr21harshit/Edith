@@ -89,3 +89,24 @@
     text-align: left;
     color: var(--text-danger);
 }
+
+/* Media Query */
+ @media (max-width:900px){
+     .alert-wrapper{
+         width: 30rem;
+     }
+ }
+
+ @media (max-width:480px){
+    .alert-wrapper{
+        width: 20rem;
+    }
+    .alert {
+        width: 12rem;
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+}
