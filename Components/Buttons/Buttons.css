@@ -110,3 +110,13 @@
     display: block;
     margin-right: 0.5rem;
 }
+
+@media (max-width:600px){
+    .btn-container {
+        width: auto;
+        display: flex;
+        margin: 3rem auto;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
