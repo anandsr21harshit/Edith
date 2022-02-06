@@ -1,0 +1,40 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .image-container{
+     margin: 5rem auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .round-image{
+     border-radius: 50%;
+     width: 25rem;
+     height: 25rem;
+     border: 1px solid black;
+     object-fit:fill;
+ }
+
+ .responsive-image{
+    width: 40rem;
+    height: auto;
+ }
+
+ @media screen and (max-width:760px) {
+     .responsive-image{
+         width: 75%;
+     }
+ }
+
+ @media screen and (max-width:620px) {
+    .responsive-image{
+        width: 90%;
+    }
+    .round-image{
+        width: 100%;
+    }
+}
