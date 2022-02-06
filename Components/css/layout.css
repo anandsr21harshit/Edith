@@ -105,6 +105,12 @@
     margin-top: 7em;
 }
 
+.import{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
 .comp-disp-header {
     margin: 2rem 0;
     font-size: 1.8rem;
