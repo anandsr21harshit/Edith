@@ -82,3 +82,11 @@
     right: 25px;
     top:75px;
 }
+
+/* Media Queries */
+ @media (max-width:600px){
+     .avatar-container{
+         width: 20rem;
+         gap: 2rem;
+     }
+ }
