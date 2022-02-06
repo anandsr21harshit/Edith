@@ -125,6 +125,7 @@
 
 /* Media Queries  */
 
+
 @media (max-width: 1200px) {
     .site-nav {
         margin-left: 3em;
@@ -151,4 +152,24 @@
         margin-top: 7em;
     }
 
+}
+
+@media (max-width: 420px) {
+    .site-nav {
+        display: none;
+    }
+
+    .brandname-link{
+        margin-left: 1.7em;
+    }
+    
+    .comp-disp{
+        max-width: 100%;
+        margin-left: 2em;
+        margin-top: 7em;
+    }
+    .comp-desc {
+        font-size: 1rem;
+        margin-left: 0.5em;
+    }
 }
