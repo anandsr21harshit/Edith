@@ -6,29 +6,4 @@
 @import url("./Input/input.css");
 @import url("../Components/css/layout.css");
 
-.comp-disp {
-    max-width: 50%;
-    margin-left: 25em;
-    margin-top: 7em;
-}
-
-.comp-disp-header {
-    margin: 2rem 0;
-    font-size: 1.8rem;
-}
-
-.comp-desc {
-    font-size: 1.1rem;
-    margin-left: 0.5em;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.5em;
-}
-
-@media screen and (max-width:900px) {
-    .comp-disp{
-        max-width: 40%;
-        margin-left: 20em;
-        margin-top: 7em;
-    }
-}
 
