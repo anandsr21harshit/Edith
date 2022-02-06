@@ -51,7 +51,7 @@
     border-radius: 50%;
     position:absolute;
     right: 25px;
-    top:75px;
+    top:65px;
 }
 
 .available{
@@ -61,7 +61,7 @@
     border-radius: 50%;
     position:absolute;
     right: 25px;
-    top:75px;
+    top:65px;
 }
 
 .brb{
@@ -71,7 +71,7 @@
     border-radius: 50%;
     position:absolute;
     right: 25px;
-    top:75px;
+    top:65px;
 }
 
 .offline{
@@ -81,7 +81,7 @@
     border-radius: 50%;
     position:absolute;
     right: 25px;
-    top:75px;
+    top:65px;
 }
 
 /* Media Queries */
