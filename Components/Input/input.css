@@ -33,3 +33,20 @@
 .radio-container label{
     margin-right:0.5rem ;
 }
+
+/* Media Query */
+
+@media (max-width:600px){
+    .input {
+        width: 15rem;
+    }
+}
+
+@media (max-width:400px){
+    .input-container{
+        margin: 0;
+    }
+    .input {
+        width: 100%;
+    }
+}
