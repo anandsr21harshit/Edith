@@ -141,6 +141,15 @@
 }
 
 @media (max-width: 900px) {
+    .page-header{
+        padding: 1em 0;
+        width: 100vw;
+        position: static;
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     .site-nav {
         display: none;
     }
@@ -149,27 +158,14 @@
         max-width: 80%;
         margin-left: 5em;
         margin-right: 5em;
-        margin-top: 7em;
+        margin-top: 2em;
     }
-
-}
-
-@media (max-width: 420px) {
-    .site-nav {
-        display: none;
-    }
-
     .brandname-link{
         margin-left: 1.7em;
-    }
-    
-    .comp-disp{
-        max-width: 100%;
-        margin-left: 2em;
-        margin-top: 7em;
     }
     .comp-desc {
         font-size: 1rem;
         margin-left: 0.5em;
     }
+
 }
