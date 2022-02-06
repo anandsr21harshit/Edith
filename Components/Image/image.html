@@ -4,15 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="./image.css">
     <title>Image</title>
 </head>
 <body>
-    <div class="image-container">
-        <img src="./paris.jpg" alt="Paris Scene" class="round-image">
-    </div>
-    <div class="image-container">
-        <img src="./paris.jpg" alt="Paris Scene" class="responsive-image">
-    </div>
+    <header class="page-header">
+        <a class="brandname-link" href="/index.html">
+            <span class="brandname">
+                <img
+                    class="brandname-logo"
+                    src="../Images/EDITH.jpg"
+                    alt="logo"
+                />
+                <span class="brandname-title">E.D.I.T.H</span>
+            </span>
+        </a>
+    </header>
+
+    <nav class="site-nav">
+        <div class="nav-main-heading">Getting Started</div>
+
+        <div class="nav-sub-heading">
+            <a href="../usage.html">Usage</a>
+        </div>
+
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+            <li class="component-links">
+                <a href="../Avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="component-links">
+                <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li class="component-links">
+                <a href="../Buttons/Buttons.html">Buttons</a>
+            </li>
+            <li class="component-links">
+                <a href="../Card/card.html">Card</a>
+            </li>   
+            <li class="component-links">
+                <a href="../Image/image.html">Image</a>
+            </li>
+            <li class="component-links">
+                <a href="../Input/input.html">Input</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="comp-disp">
+        <h1 class="comp-disp-header">Image Component</h1>
+        <h2 class="sub-comp-header">Round Image</h2>
+        <div class="image-container">
+            <img src="./paris.jpg" alt="Paris Scene" class="round-image">
+        </div>
+
+        <h2 class="sub-comp-header">Responsive Image</h2>
+        <div class="image-container">
+            <img src="./paris.jpg" alt="Paris Scene" class="responsive-image">
+        </div>
+    </main>
 </body>
 </html>
