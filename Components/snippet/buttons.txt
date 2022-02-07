@@ -1,0 +1,28 @@
+<div class="btn-container">
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+</div>
+
+<div class="btn-container">
+    <button type="button" class="btn btn-outline btn-primary-outline">Primary</button>
+    <button type="button" class="btn btn-outline btn-secondary-outline">Secondary</button>
+    <button type="button" class="btn btn-outline btn-success-outline">Success</button>
+    <button type="button" class="btn btn-outline btn-danger-outline">Danger</button>
+    <button type="button" class="btn btn-outline btn-warning-outline">Warning</button>
+    <button type="button" class="btn btn-outline btn-info-outline">Info</button>
+</div>
+
+<div class="btn-container">
+    <a href="#" class="btn btn-primary btn-link">Link</a></button>
+</div>
+
+<div class="btn-container">
+    <div class="btn btn-outline btn-primary-outline btn-icon">
+        <img class="icon" src="./images/save-fill.svg" alt="">
+        <p>Save</p>
+    </div>  
+</div>

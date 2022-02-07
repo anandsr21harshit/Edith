@@ -1,0 +1,8 @@
+<div class="image-container">
+    <img src="./paris.jpg" alt="Paris Scene" class="round-image">
+</div>
+
+<div class="image-container">
+    <img src="./paris.jpg" alt="Paris Scene" class="responsive-image">
+</div>
+

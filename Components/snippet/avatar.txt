@@ -1,0 +1,35 @@
+<div class="avatar-container">
+    <img class="avatar-circle avatar-xl" src="./Images/tony-stark.jpeg" alt="avatar">
+    <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+    <img class="avatar-circle avatar-m" src="./Images/tony-stark.jpeg" alt="avatar">
+    <img class="avatar-circle avatar-s" src="./Images/tony-stark.jpeg" alt="avatar">
+</div>
+
+<div class="avatar-container">
+    <img class="avatar avatar-xl" src="./Images/tony-stark.jpeg" alt="avatar">
+    <img class="avatar avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+    <img class="avatar avatar-m" src="./Images/tony-stark.jpeg" alt="avatar">
+    <img class="avatar avatar-s" src="./Images/tony-stark.jpeg" alt="avatar">
+</div>
+
+<div class="avatar-container">
+    <div class="picture">
+        <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+        <div class="busy"></div>
+    </div>
+
+    <div class="picture">
+        <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+        <div class="available"></div>
+    </div>
+
+    <div class="picture">
+        <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+        <div class="brb"></div>
+    </div>
+
+    <div class="picture">
+        <img class="avatar-circle avatar-l" src="./Images/tony-stark.jpeg" alt="avatar">
+        <div class="offline"></div>
+    </div>    
+</div>
