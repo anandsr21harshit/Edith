@@ -1,0 +1,15 @@
+<div class="alert-wrapper">
+    <div class="alert alert-primary">Primary Alert</div>
+    <div class="alert alert-secondary">Secondary Alert</div>
+    <div class="alert alert-success">Success Alert</div>
+    <div class="alert alert-danger">Danger Alert</div>
+    <div class="alert alert-warning">Warning Alert</div>
+    <div class="alert alert-info">Info Alert</div>
+    <div class="alert alert-dark">Dark Alert</div>
+</div> 
+
+<div class="alert-wrapper">
+    <div class="alert alert-info-icon"><i class="bi bi-info-circle-fill"></i>This is Info</div>
+    <div class="alert alert-warning-icon"><i class="bi bi-exclamation-triangle-fill"></i>This is Warning</div>
+    <div class="alert alert-danger-icon"><i class="bi bi-x-circle-fill"></i>This is danger</div>
+</div>

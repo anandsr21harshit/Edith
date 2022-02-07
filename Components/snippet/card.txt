@@ -1,0 +1,202 @@
+<div class="card-container">
+    <div class="card">
+        <div class="card-img">
+            <img src="./images/cafe.jpg" alt="Cafeteria">
+        </div>
+        <div class="card-title">
+            D'Hoot Cafe
+        </div>
+        <div class="card-sub-title">
+            <img src="./images/geo-alt-fill.svg" alt="Location Icon">
+            Boring Road,Patna
+        </div>
+        <div class="card-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <footer class="card-footer">
+            <button class="btn btn-primary" type="button">Read More</button>
+            <div class="icons">
+                <img src="./images/like.svg" alt="Like Button">
+                <img src="./images/share.svg" alt="Share Button">
+                <img src="./images/dots-vertical.svg" alt="More Options">
+            </div>
+        </footer>
+    </div>
+</div>
+
+<div class="card-container">
+    <div class="card card-heading-top">
+        <div class="card-img">
+            <img src="./images/cafe.jpg" alt="Cafeteria">
+        </div>
+        <div class="heading">
+            <div class="card-title">
+                D'Hoot Cafe
+            </div>
+            <div class="card-sub-title">
+                <img src="./images/geo-alt-fill.svg" alt="Location Icon">
+                Boring Road,Patna
+            </div>
+        </div>
+        <div class="card-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <footer class="card-footer">
+            <button class="btn btn-primary" type="button">Read More</button>
+            <div class="icons">
+                <div class="icons">
+                    <img src="./images/like.svg" alt="Like Button">
+                    <img src="./images/share.svg" alt="Share Button">
+                    <img src="./images/dots-vertical.svg" alt="More Options">
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<div class="card-container">
+    <div class="card card-without-icons">
+        <div class="card-img">
+            <img src="./images/cafe.jpg" alt="Cafeteria">
+        </div>
+        <div class="heading">
+            <div class="card-title">
+                D'Hoot Cafe
+            </div>
+            <div class="card-sub-title">
+                <img src="./images/geo-alt-fill.svg" alt="Location Icon">
+                Boring Road,Patna
+            </div>
+        </div>
+        <div class="card-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <footer class="card-footer">
+            <button class="btn btn-primary" type="button">Read More</button>
+            <div class="icons">
+                <div class="icons">
+                    <img src="./images/like.svg" alt="Like Button">
+                    <img src="./images/share.svg" alt="Share Button">
+                    <img src="./images/dots-vertical.svg" alt="More Options">
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<div class="card-container">
+    <div class="card card-without-button">
+        <div class="card-img">
+            <img src="./images/cafe.jpg" alt="Cafeteria">
+        </div>
+        <div class="heading">
+            <div class="card-title">
+                D'Hoot Cafe
+            </div>
+            <div class="card-sub-title">
+                <img src="./images/geo-alt-fill.svg" alt="Location Icon">
+                Boring Road,Patna
+            </div>
+        </div>
+        <div class="card-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <footer class="card-footer">
+            <button class="btn btn-primary" type="button">Read More</button>
+            <div class="icons">
+                <div class="icons">
+                    <img src="./images/like.svg" alt="Like Button">
+                    <img src="./images/share.svg" alt="Share Button">
+                    <img src="./images/dots-vertical.svg" alt="More Options">
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<div class="card-container">
+    <div class="card card-without-image">
+        <div class="heading">
+            <div class="card-title">
+                D'Hoot Cafe
+            </div>
+            <div class="card-sub-title">
+                <img src="./images/geo-alt-fill.svg" alt="Location Icon">
+                Boring Road,Patna
+            </div>
+        </div>
+        <div class="card-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <footer class="card-footer">
+            <button class="btn btn-primary" type="button">Read More</button>
+            <div class="icons">
+                <div class="icons">
+                    <img src="./images/like.svg" alt="Like Button">
+                    <img src="./images/share.svg" alt="Share Button">
+                    <img src="./images/dots-vertical.svg" alt="More Options">
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<div class="card-container">
+    <div class="card card-horizontal">
+        <div class="heading">
+            <div class="card-title">
+                D'Hoot Cafe
+            </div>
+            <div class="card-sub-title">
+                <img src="./images/geo-alt-fill.svg" alt="Location Icon">
+                Boring Road,Patna
+            </div>
+        </div>
+        <div class="card-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <footer class="card-footer">
+            <button class="btn btn-primary" type="button">Read More</button>
+            <div class="icons">
+                <div class="icons">
+                    <img src="./images/like.svg" alt="Like Button">
+                    <img src="./images/share.svg" alt="Share Button">
+                    <img src="./images/dots-vertical.svg" alt="More Options">
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<div class="card-container">
+    <div class="card card-with-badge">
+        <div class="card-img">
+            <img src="./images/cafe.jpg" alt="Cafeteria">
+        </div>
+        <span class="badge">Upto 20% Off*</span>
+
+        <div class="heading">
+            <div class="card-title">
+                D'Hoot Cafe
+            </div>
+            <div class="card-sub-title">
+                <img src="./images/geo-alt-fill.svg" alt="Location Icon">
+                Boring Road,Patna
+            </div>
+        </div>
+        <div class="card-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <footer class="card-footer">
+            <button class="btn btn-primary" type="button">Read More</button>
+            <div class="icons">
+                <div class="icons">
+                    <img src="./images/like.svg" alt="Like Button">
+                    <img src="./images/share.svg" alt="Share Button">
+                    <img src="./images/dots-vertical.svg" alt="More Options">
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
