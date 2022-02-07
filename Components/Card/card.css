@@ -97,3 +97,32 @@
 .card-horizontal{
     width: 40rem;
 }
+
+/* Media Query */
+
+@media (max-width:600px){
+    .card-img > img {
+        width: 16rem;
+        height: 10rem;
+    }
+    .card-title {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 0.5rem;
+    }
+    .card-sub-title {
+        font-size: 1rem;
+    }
+    .card-content {
+        font-size: 0.8rem;
+    }
+    .btn {
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+    }
+    .icons img{
+        margin: 0 0.5rem;
+        width: 1rem;
+        height: auto;
+    }
+}
