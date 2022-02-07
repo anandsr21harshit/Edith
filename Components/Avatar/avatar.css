@@ -96,6 +96,7 @@
     .avatar-container{
         width: 100%;
         gap: 2rem;
+        padding: 0;
     }
 
 }
