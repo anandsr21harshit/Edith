@@ -1,0 +1,35 @@
+.badge-container{
+    position: relative;
+    width: fit-content;
+    display: flex;
+    margin: 2rem;
+}
+
+.bag-icon{
+    width: 2em;
+}
+
+.message-icon{
+    width: 2em;
+}
+
+.notification{
+    position: absolute;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    width: 25%;
+    height: 25%;
+    min-width: 15px;
+    min-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+}
+
+.msg-count{
+    position: absolute;
+    top: -5px;
+}
