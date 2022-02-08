@@ -1,0 +1,8 @@
+<div class="badge-container">
+    <img class="bag-icon" src="./bag-fill.svg" alt="Bag Icon">
+    <div class="notification">2</div>
+</div>
+<div class="badge-container">
+    <img class="message-icon" src="./chat.svg" alt="Chat Icon">
+    <div class="notification msg-count">2</div>
+</div>
