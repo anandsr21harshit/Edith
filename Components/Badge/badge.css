@@ -5,11 +5,7 @@
     margin: 2rem;
 }
 
-.bag-icon{
-    width: 2em;
-}
-
-.message-icon{
+.bag-icon, .message-icon{
     width: 2em;
 }
 
