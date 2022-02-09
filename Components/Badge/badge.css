@@ -1,3 +1,7 @@
+:root{
+    --notif-background:red;
+    --text-color: white;
+}
 .badge-container{
     position: relative;
     width: fit-content;
@@ -11,8 +15,8 @@
 
 .notification{
     position: absolute;
-    background-color: red;
-    color: white;
+    background-color: var(--notif-background);
+    color: var(--text-color);
     border-radius: 50%;
     font-size: 0.8rem;
     width: 25%;
