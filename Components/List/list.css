@@ -1,6 +1,10 @@
+:root{
+    --border-light: #e6e6e9;
+    --background-light: rgb(194, 191, 191);
+}
 .list-container{
     list-style-type: none;
-    border: 1px solid #e6e6e9;
+    border: 1px solid var(--border-light);
     width:fit-content;
     min-width: 10rem;
     padding: 1rem;
@@ -15,7 +19,7 @@
 }
 
 .stacked{
-    background-color: rgb(194, 191, 191);
+    background-color: var(--background-light);
     padding: 0.8rem;
     border-radius: 0.5rem;
     text-align: center;
