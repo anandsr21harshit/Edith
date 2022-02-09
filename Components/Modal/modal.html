@@ -54,6 +54,29 @@
             </li>
         </ul>
     </nav>
-    
+    <main class="comp-disp">
+        <h1 class="comp-disp-header">Modal</h1>
+        <p class="comp-desc">A modal is a dialog box/popup window that is displayed on top of the current page.</p>
+        <h2 class="sub-comp-header">Simple Modal</h2>
+        <button class="btn btn-danger modal">Delete</button>
+        <p class="comp-desc">Click on the button to check the Modal.</p>
+
+        <!-- Modal  -->
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="modal-title">
+                    <span class="modal-header">Delete Permanently</span>
+                    <span class="modal-delete">x</span>
+                </div>
+                <div class="modal-description">
+                    <p class="comp-desc">Are you sure you want to delete?</p>
+                </div>
+                <div class="modal-buttons">
+                    <button id="no" class="btn btn-outline btn-secondary-outline">No</button>
+                    <button id="yes" class="btn btn-secondary">Yes</button>
+                </div>
+            </div>
+        </div>
+        <script src="modal.js"></script>
 </body>
 </html>
