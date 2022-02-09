@@ -1,5 +1,9 @@
+:root{
+    --navigation-background:tomato;
+    --menu-link-color:white;
+}
 .nav-bar{
-    background-color: tomato;
+    background-color: var(--navigation-background);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,6 +25,6 @@
 
 .menu > a{
     text-decoration: none;
-    color: white;
+    color: var(--menu-link-color);
     font-size: 1.1rem;
 }
