@@ -1,0 +1,5 @@
+@import url("https://edithui.netlify.app/components/image/image.css")
+
+                        or
+
+<link rel="stylesheet" href="https://edithui.netlify.app/components/image/image.css">
