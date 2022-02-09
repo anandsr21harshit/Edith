@@ -1,6 +1,14 @@
+:root{
+    --modal-conatiner-background: rgba(240, 248, 255, 0.589);
+    --modal-border: gray;
+    --modal-content: black;
+    --box-shadow:rgba(0, 0, 0, 0.35);
+    --modal-content-background:white;
+}
+
 .modal-container{
     position: fixed;
-    background-color: rgba(240, 248, 255, 0.589);
+    background-color: var(--modal-conatiner-background);
     z-index: 2;
     left: 0;
     top: 0;
@@ -18,10 +26,10 @@
     flex-direction: column;
     padding: 1rem;
     position: relative;
-    background-color: white;
-    color: black;
-    border: 1px solid gray;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var(--modal-content-background);
+    color: var(--modal-content);
+    border: 1px solid var(--modal-border);
+    box-shadow: var(--box-shadow) 0px 5px 15px;
 }
 
 .modal-title{
