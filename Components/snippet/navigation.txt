@@ -1,0 +1,8 @@
+<nav class="nav-bar">
+    <h1 class="nav-brand">My Website</h1>
+    <ul class="menus">
+        <li class="menu"><a href="">Home</a></li>
+        <li class="menu"><a href="">About</a</li>
+        <li class="menu"><a href="">Contacts</a></li>
+    </ul>
+</nav>
