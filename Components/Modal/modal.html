@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Components/usage.css">
+    <link rel="stylesheet" href="modal.css">
+    <title>Modal</title>
+</head>
+<body>
+    <header class="page-header">
+        <a class="brandname-link" href="/index.html">
+            <span class="brandname">
+                <img
+                    class="brandname-logo"
+                    src="../Images/EDITH.jpg"
+                    alt="logo"
+                />
+                <span class="brandname-title">E.D.I.T.H</span>
+            </span>
+        </a>
+    </header>
+
+    <nav class="site-nav">
+        <div class="nav-main-heading">Getting Started</div>
+
+        <div class="nav-sub-heading">
+            <a href="../usage.html">Usage</a>
+        </div>
+
+        <div class="nav-main-heading">Components</div>
+        <ul class="nav-comp-section">
+            <li class="component-links">
+                <a href="../Avatar/avatar.html">Avatar</a>
+            </li>
+            <li class="component-links">
+                <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li class="component-links">
+                <a href="../Buttons/Buttons.html">Buttons</a>
+            </li>
+            <li class="component-links">
+                <a href="../Card/card.html">Card</a>
+            </li>   
+            <li class="component-links">
+                <a href="../Image/image.html">Image</a>
+            </li>
+            <li class="component-links">
+                <a href="../Input/input.html">Input</a>
+            </li>
+            <li class="component-links">
+                <a href="../List/list.html">List</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="comp-disp">
+        <h1 class="comp-disp-header">Modal</h1>
+        <p class="comp-desc">A modal is a dialog box/popup window that is displayed on top of the current page.</p>
+        <h2 class="sub-comp-header">Simple Modal</h2>
+        <button class="btn btn-danger modal">Delete</button>
+        <p class="comp-desc">Click on the button to check the Modal.</p>
+
+        <!-- Modal  -->
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="modal-title">
+                    <span class="modal-header">Delete Permanently</span>
+                    <span class="modal-delete">x</span>
+                </div>
+                <div class="modal-description">
+                    <p class="comp-desc">Are you sure you want to delete?</p>
+                </div>
+                <div class="modal-buttons">
+                    <button id="no" class="btn btn-outline btn-secondary-outline">No</button>
+                    <button id="yes" class="btn btn-secondary">Yes</button>
+                </div>
+            </div>
+        </div>
+        <script src="modal.js"></script>
+</body>
+</html>
