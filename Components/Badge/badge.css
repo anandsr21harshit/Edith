@@ -21,8 +21,8 @@
     font-size: 0.8rem;
     width: 25%;
     height: 25%;
-    min-width: 15px;
-    min-height: 15px;
+    min-width: 1rem;
+    min-height: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
