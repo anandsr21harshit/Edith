@@ -1,0 +1,35 @@
+:root{
+    --notif-background:red;
+    --text-color: white;
+}
+.badge-container{
+    position: relative;
+    width: fit-content;
+    display: flex;
+    margin: 2rem;
+}
+
+.bag-icon, .message-icon{
+    width: 2em;
+}
+
+.notification{
+    position: absolute;
+    background-color: var(--notif-background);
+    color: var(--text-color);
+    border-radius: 50%;
+    font-size: 0.8rem;
+    width: 25%;
+    height: 25%;
+    min-width: 1rem;
+    min-height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+}
+
+.msg-count{
+    position: absolute;
+    top: -5px;
+}
