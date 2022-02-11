@@ -38,7 +38,6 @@
     bottom: 0;
     margin-left: 5em;
     margin-top: 7em;
-    /* overflow-y: auto; */
 }
 
 .nav-main-heading {
@@ -47,7 +46,6 @@
     border-radius: 0.3em;
     display: block;
     width: 100%;
-    /* color: #626364; */
     font-weight: 600;
     margin-top: 0.6em;
 }
@@ -97,6 +95,12 @@
     padding: 0.2em 0.5em;
     color: #585a5c;
     width: 100%;
+}
+
+.active{
+    background-color:#d6f3ee ;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0 0.5rem 0.5rem;
 }
 
 .comp-disp {
