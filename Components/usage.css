@@ -4,6 +4,10 @@
 @import url("./Buttons/Buttons.css");
 @import url("./Card/card.css");
 @import url("./Input/input.css");
+@import url("./Badge/badge.css");
+@import url("./List/list.css");
+@import url("./Modal/modal.css");
+@import url("./Navigation/navigation.css");
 @import url("../Components/css/layout.css");
 
 
