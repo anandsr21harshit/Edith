@@ -23,6 +23,9 @@
     color: var(--bg-primary);
 }
 
+.btn{
+    width:5.2rem
+}
 .btn-outline{
     color: var(--bg-primary);
 }
