@@ -4,7 +4,7 @@
 A component library based on HTML, CSS and JavaScript
 
 ### Preview
-![](https://github.com/anandsr21harshit/Edith/blob/dev/edith.gif)
+![](https://github.com/anandsr21harshit/Edith/blob/dev/edith-v2.gif)
 
 ### Tech Stack
 ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
