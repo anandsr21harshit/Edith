@@ -1,4 +1,4 @@
-# Edith
+# E.D.I.T.H
 
 ### About
 A component library based on HTML, CSS and JavaScript
