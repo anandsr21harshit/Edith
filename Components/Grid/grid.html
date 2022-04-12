@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="./image.css">
-    <title>Image</title>
+    <title>Grid</title>
+    <link rel="stylesheet" href="/Components/usage.css">
+    <link rel="stylesheet" href="grid.css">
 </head>
 <body>
     <header class="page-header">
@@ -47,7 +47,7 @@
                 <a href="../Card/card.html">Card</a>
             </li>   
             <li class="component-links">
-                <a href="../Image/image.html" class="active">Image</a>
+                <a href="../Image/image.html">Image</a>
             </li>
             <li class="component-links">
                 <a href="../Input/input.html">Input</a>
@@ -65,28 +65,29 @@
                 <a href="../Utilities/utilities.html">Utilities</a>
             </li>
             <li class="component-links">
-                <a href="../Grid//grid.html">Grid</a>
+                <a href="../Grid/grid.html" class="active">Grid</a>
             </li>
         </ul>
     </nav>
-
     <main class="comp-disp">
-        <h1 class="comp-disp-header">Image Component</h1>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fanandsr21harshit%2FEdith%2Fblob%2Fdev%2FComponents%2Fsnippet%2Fimage-css.txt&style=darcula&showCopy=on"></script>
-        <h2 class="sub-comp-header">Round Image</h2>
-        <div class="image-container">
-            <img src="./paris.jpg" alt="Paris Scene" class="round-image">
-        </div>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fanandsr21harshit%2FEdith%2Fblob%2Fsnippet%2FComponents%2Fsnippet%2Fimage.txt%23L1-L3&style=darcula&showCopy=on"></script>
+        <h1 class="comp-disp-header">Grid Layout</h1>
+        <p class="comp-desc">Grids adapt to screen size and orientation, ensuring consistency across layouts. For using grids, you have to add <span class="keywords">display-grid</span> as class name. The given grid is responsive. The number of columns will change if width is not sufficient.</p>
 
-        <h2 class="sub-comp-header">Responsive Image</h2>
-        <div class="image-container">
-            <img src="./paris.jpg" alt="Paris Scene" class="responsive-image">
+        <h2 class="sub-comp-header">Grid Layout of two items</h2>
+        <div class="display-grid">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
         </div>
-        <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fanandsr21harshit%2FEdith%2Fblob%2Fsnippet%2FComponents%2Fsnippet%2Fimage.txt%23L5-L7&style=darcula&showCopy=on"></script>
+
+        <h2 class="sub-comp-header">Grid Layout of three items</h2>
+        <div class="display-grid">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+        </div>
         <footer class="page-footer">
-            <a href="/Components/Card/card.html" class="footer-button">&lt; Card</a>
-            <a href="../Input/input.html" class="footer-button"> Input &gt; </a>
+            <a href="/Components/Card/card.html" class="footer-button">&lt; Utilities</a>
+            <a href="#" class="footer-button"></a>
         </footer> 
     </main>
 </body>
