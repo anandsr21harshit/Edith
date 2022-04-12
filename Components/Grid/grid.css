@@ -7,8 +7,8 @@
 }
 
 .box{
-    background-color: aqua;
-    border: 4px solid tomato;
+    background-color: var(--bg-primary);
+    border: 4px solid var(--bg-danger);
     padding: 3rem;
     text-align: center;
 }
