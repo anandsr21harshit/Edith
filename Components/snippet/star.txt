@@ -1,0 +1,7 @@
+<div class="star-container">
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+    <i class="bi bi-star-fill"></i>
+</div>
