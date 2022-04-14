@@ -1,0 +1,18 @@
+@import url("../css/global.css");
+
+.star-container {
+    max-width: 50%;
+    margin: 0 auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .star {
+    color: rgb(255, 215, 0);
+  }
+  
+  .hover {
+    color: rgb(255, 215, 0, 0.4);
+  }
+  
